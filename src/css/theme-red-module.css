@@ -1,0 +1,85 @@
+:root {
+  --theme-color-primary: #e41b1b;
+  --main-bg-color: #fff;
+  --text-color-primary: #000;
+  --text-color-secondary: #fff;
+  --header-bg-color: #e1f2f9;
+  --secondary-bg-color: #e0e0e080;
+}
+/******************** Global CSS Start *******************/
+/*********************************************************/
+html body,
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-family: "Open Sans", sans-serif !important;
+}
+.term-policy a {
+  color: var(--theme-color-primary);
+}
+.nk-header.is-theme:not([class*="bg-"]) {
+  background: var(--header-bg-color) !important;
+  border-color: var(--header-bg-color) !important;
+}
+.user-dropdown .user-status,
+.user-dropdown .user-name {
+  color: var(--text-color-primary) !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: var(--theme-color-primary) !important;
+  background-color: var(--theme-color-primary) !important;
+}
+/******************** Global CSS End *******************/
+/*********************************************************/
+
+/******************** Button CSS Start *******************/
+/*********************************************************/
+.bg-primary,
+.bg-theme-primary {
+  background: var(--theme-color-primary) !important;
+}
+.bg-theme-primary {
+  background-color: var(--theme-color-primary) !important;
+}
+.btn-silohealth {
+  background: var(--theme-color-primary) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 8px 20px !important;
+  font-size: 15px !important;
+}
+.btn-primary {
+  background: var(--theme-color-primary) !important;
+  border: 1px solid var(--theme-color-primary) !important;
+}
+.btn:focus-visible {
+  box-shadow: none !important;
+}
+/******************** Button CSS End *******************/
+/*********************************************************/
+
+/******************** Wizard Css Start *******************/
+/*********************************************************/
+.nk-wizard-simple .steps ul li h5,
+.nk-wizard-simple .steps ul li span {
+  color: var(--theme-color-primary) !important;
+  font-weight: bold !important;
+}
+.nk-wizard-simple .steps ul li.done:after,
+.nk-wizard-simple .steps ul li.current:after {
+  background: var(--theme-color-primary) !important;
+}
+.nk-wizard .actions {
+  float: right !important;
+}
+/******************** Wizard Css End *******************/
+/*********************************************************/
