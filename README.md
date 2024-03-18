@@ -9,9 +9,7 @@
 - Run `npm start` after above steps
 
 
-### .env variables
 
-- REACT_APP_SILOCLOUD_URL=your-backend-api-url
 
 ## add logos
 
